@@ -1,0 +1,21 @@
+{
+  "name": "strigoaica-facebook",
+  "version": "0.0.1",
+  "description": "Strigoaica - Facebook Strategy",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "agathias": "^0.0.4",
+    "strigoaica-strategy": "file:../strigoaica-strategy"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefanos Chrs <chrsstefanos@gmail.com>",
+  "license": "MIT"
+}
