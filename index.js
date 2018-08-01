@@ -74,7 +74,7 @@ var Facebook = /** @class */ (function () {
                     return [2 /*return*/, Promise.resolve(templatesToSend)];
                 }
                 return [2 /*return*/, Promise.all(templatesToSend.map(function (data) {
-                        return _this.sendHelper(data.recipient, data.template);
+                        return _this.sendHelper(data.to, data.template);
                     }))];
             });
         });

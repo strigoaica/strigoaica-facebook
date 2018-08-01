@@ -55,7 +55,7 @@ class Facebook implements Strategy {
     }
 
     return Promise.all(templatesToSend.map((data) =>
-      this.sendHelper(data.recipient, data.template)))
+      this.sendHelper(data.to, data.template)))
   }
 
   private sendHelper (recipient, template) {
