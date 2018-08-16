@@ -1,1 +1,1 @@
-# [Strigoaica](https://github.com/stefanoschrs/strigoaica) - Facebook Strategy
+# [Strigoaica](https://github.com/strigoaica/strigoaica) - Facebook Strategy
