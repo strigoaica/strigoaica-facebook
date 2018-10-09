@@ -83,7 +83,7 @@ class Facebook implements Strategy {
       const req = https.request(options, (res) => {
         let data = ''
         res.on('data', (chunk) => data += chunk)
-        res.on('end', () => resolve(data))
+        res.on('end', () => res.statusCode === 200 ? resolve(data) : reject(data))
       })
 
       req.on('error', (error) => reject(error))
