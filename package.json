@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "agathias": "^0.0.4",
-    "strigoaica-strategy": "0.0.1"
+    "strigoaica-strategy": "^0.0.2"
   },
   "devDependencies": {
     "@types/node": "^10.5.2"
@@ -17,5 +17,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stefanos Chrs <chrsstefanos@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strigoaica/strigoaica-facebook.git"
+  },
+  "keywords": [
+    "strigoaica",
+    "facebook",
+    "strategy"
+  ],
+  "bugs": {
+    "url": "https://github.com/strigoaica/strigoaica-facebook/issues"
+  },
+  "homepage": "https://github.com/strigoaica/strigoaica-facebook#readme"
 }
