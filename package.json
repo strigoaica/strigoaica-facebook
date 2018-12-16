@@ -1,6 +1,6 @@
 {
   "name": "strigoaica-facebook",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Strigoaica - Facebook Strategy",
   "main": "index.js",
   "directories": {
